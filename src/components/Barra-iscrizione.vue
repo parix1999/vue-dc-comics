@@ -13,6 +13,26 @@
                             <img src="../assets/footer-facebook.png" alt="social-logo">
                         </div>
                     </li>
+                    <li>
+                        <div class="box-social">
+                            <img src="../assets/footer-twitter.png" alt="social-logo">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-social">
+                            <img src="../assets/footer-youtube.png" alt="social-logo">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-social">
+                            <img src="../assets/footer-pinterest.png" alt="social-logo">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-social">
+                            <img src="../assets/footer-periscope.png" alt="social-logo">
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
