@@ -67,10 +67,20 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         background-position:top;
+        overflow: hidden;
 
-    }   
+    }  
+    .bg-logo {
+        width:450px;
+        img{
+            width:100%;
+        }
+    }
     .separazione{
         display: flex;
+        justify-content: space-between;
+
+
         ul{
             list-style: none;
             padding:0 10px;
@@ -95,6 +105,7 @@ export default {
     }
     .spazio {
         display:flex;
+        
     }
 
     
