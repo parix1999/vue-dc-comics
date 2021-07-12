@@ -49,14 +49,30 @@ export default {
     nav {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin-top:20px;
         
     }
     ul {
         display: flex;
         list-style: none;
+
+        li{
+            padding: 0 10px;
+            height: 80px;
+            line-height: 80px;
+            
+
+            &:hover{
+                border-bottom:4px solid black;
+            }
+
+        }
+
         a{
             color:black;
             text-decoration: none;
+            
         }
     }
 </style>
