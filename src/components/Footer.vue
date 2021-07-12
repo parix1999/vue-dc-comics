@@ -68,10 +68,12 @@ export default {
         background-repeat: no-repeat;
         background-position:top;
         overflow: hidden;
+        padding:20px 0;
 
     }  
     .bg-logo {
         width:450px;
+        margin-top:-40px;
         img{
             width:100%;
         }
