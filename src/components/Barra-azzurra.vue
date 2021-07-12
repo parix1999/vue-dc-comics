@@ -9,19 +9,27 @@
                     <span>DIGITAL COMICS</span>
                 </li>
                 <li>
-                    <div class="box-pic"></div>
+                    <div class="box-pic">
+                        <img src="../assets/buy-comics-merchandise.png" alt="fotoDC">
+                    </div>
                     <span>DC MERCHANDISE</span>
                 </li>
                 <li>
-                    <div class="box-pic"></div>
+                    <div class="box-pic">
+                        <img src="../assets/buy-comics-subscriptions.png" alt="fotoDC">
+                    </div>
                     <span>SUBSCRIPTION</span>
                 </li>
                 <li>
-                    <div class="box-pic"></div>
+                    <div class="box-pic adjustment">
+                        <img src="../assets/buy-comics-shop-locator.png" alt="fotoDC">
+                    </div>
                     <span>COMIC SHOP LOCATOR</span>
                 </li>
                 <li>
-                    <div class="box-pic"></div>
+                    <div class="box-pic">
+                        <img src="../assets/buy-dc-power-visa.svg" alt="fotoDC">
+                    </div>
                     <span>DC POWER VISA</span>
                 </li>
             </ul>
@@ -46,13 +54,15 @@ export default {
     ul {
         display:flex;
         list-style-type: none;
-        justify-content: space-between;
 
         li{
             display: flex;
             align-items: center;
+            font-size:12px;
+            color:white;
+            padding-left:20px;
             span{
-            padding-left:5px;
+            margin-left:10px;
         }
         }
 
@@ -63,6 +73,9 @@ export default {
             width:100%;
         }
         
+    }
+    .adjustment{
+        width:40px;
     }
 
 </style>
