@@ -62,9 +62,9 @@ export default {
             height: 80px;
             line-height: 80px;
             
-
             &:hover{
-                border-bottom:4px solid black;
+                border-bottom:4px solid #2d83f9;
+
             }
 
         }
@@ -72,7 +72,9 @@ export default {
         a{
             color:black;
             text-decoration: none;
-            
+            &:hover{
+                color:#2d83f9;
+            }
         }
     }
 </style>
